@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Fondamento|Neucha);
+
+.letter {
+  background-color: #9C0000;
+  border-bottom: 2px #770000 solid;
+  border-radius: 2px;
+  border-right: 2px #770000 solid;
+  font-family: 'Neucha', cursive;
+  font-size: large;
+  letter-spacing: 1px;
+  margin-top: 2em;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.bottomUp {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+}
+
+.headerPad {
+  padding-top: 650px;
+}
+
+h1 {
+  font-family: 'proxima-nova', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#header1 {
+  position: absolute;
+  top: 10px;
+  background-image: url(../res/bg1.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 10px;
+  min-height: 650px;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -webkit-animation: fading 12s infinite; /* Chrome, Safari, Opera */
+  animation: fading 12s infinite;
+}
+
+@-webkit-keyframes fading {
+  0% {opacity: 1;}
+  37.5% {opacity: 1;}
+  50% {opacity: 0;}
+  87.5% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fading {
+  0% {opacity: 1;}
+  37.5% {opacity: 1;}
+  50% {opacity: 0;}
+  87.5% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#header2 {
+  position: absolute;
+  top: 10px;
+  background-image: url(../res/bg2.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 10px;
+  min-height: 650px;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -webkit-animation: fading2 12s infinite;
+  animation: fading2 12s infinite;
+}
+
+@-webkit-keyframes fading2 {
+  0% {opacity: 0;}
+  37.5% {opacity: 0;}
+  50% {opacity: 1;}
+  87.5% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fading2 {
+  0% {opacity: 0;}
+  37.5% {opacity: 0;}
+  50% {opacity: 1;}
+  87.5% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+footer .well {
+  padding:0.5em 1em;
+}
+
+.well {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+header {
+  height: 10px;
+  min-height: 10px;
+}
+
+.lessRedBird {
+  background-color: #B32209;
+}
+
+.redBird {
+  background-color: #9C0000;
+}
+
+.formNarrative {
+  font-weight: lighter;
+}
+
+.thanks {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100%; 
+  height: 12em;
+}
+
+.thanksNote {
+  padding: 1.5em 0;
+}
+
+dt {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+dd {
+  padding-left: 1em;
+}
