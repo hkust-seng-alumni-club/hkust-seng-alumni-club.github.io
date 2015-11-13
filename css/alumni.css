@@ -83,34 +83,20 @@ h1 {
     animation: fading2 12s infinite;
 }
 
-#header3 {
-    position: absolute;
-    top: 10px;
-    background-image: url(../res/bg3.jpg);
-    background-position: top center;
-    background-size: cover;
-    height: 10px;
-    min-height: 480px;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s;
-    -webkit-animation: fading2 12s infinite;
-    animation: fading2 12s infinite;
-}
-
 @-webkit-keyframes fading2 {
-    0% {opacity: 0;}
-    37.5% {opacity: 0;}
-    50% {opacity: 1;}
-    87.5% {opacity: 1;}
-    100% {opacity: 0;}
+    0% { opacity: 0; }
+    37.5% { opacity: 0; }
+    50% { opacity: 1; }
+    87.5% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 @keyframes fading2 {
-    0% {opacity: 0;}
-    37.5% {opacity: 0;}
-    50% {opacity: 1;}
-    87.5% {opacity: 1;}
-    100% {opacity: 0;}
+    0% { opacity: 0; }
+    37.5% { opacity: 0; }
+    50% { opacity: 1; }
+    87.5% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 footer .well {
