@@ -2,13 +2,16 @@
 
 .letter {
     background-color: #132E5F;
-    border-bottom: 2px #091c3d solid;
+    border: 4px #091c3d solid;
     border-radius: 2px;
-    border-right: 2px #091c3d solid;
     font-family: "Neucha", cursive;
     font-size: large;
     letter-spacing: 1px;
     margin-top: 2em;
+}
+
+button[type="submit"] {
+    margin-top: 16px;
 }
 
 .jumbotron {
