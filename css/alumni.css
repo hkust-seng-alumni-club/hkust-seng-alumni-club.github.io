@@ -19,11 +19,16 @@ button[type="submit"] {
     width: 100%;
 }
 
-.bottomUp {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
+.heading {
+  position: absolute;
+  top: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-shadow: 2px 2px 4px #000000;
 }
+
+.heading h1 { font-size: 52px; }
+.heading p { font-size: 28px; }
 
 .headerPad {
     padding-top: 480px;
@@ -39,7 +44,6 @@ h1 {
     font-family: "proxima-nova", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 #header1 {
@@ -50,26 +54,14 @@ h1 {
     background-size: cover;
     height: 10px;
     min-height: 480px;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s;
-    -webkit-animation: fading 12s infinite; /* Chrome, Safari, Opera */
-    animation: fading 12s infinite;
+    animation: fading1 12s infinite;
 }
 
-@-webkit-keyframes fading {
-    0% {opacity: 1;}
-    37.5% {opacity: 1;}
-    50% {opacity: 0;}
-    87.5% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@keyframes fading {
-    0% {opacity: 1;}
-    37.5% {opacity: 1;}
-    50% {opacity: 0;}
-    87.5% {opacity: 0;}
-    100% {opacity: 1;}
+@keyframes fading1 {
+  0%, 100% { opacity: 1; }
+  15% { opacity: 1; }
+  25% { opacity: 0; }
+  90% { opacity: 0; }
 }
 
 #header2 {
@@ -80,26 +72,52 @@ h1 {
     background-size: cover;
     height: 10px;
     min-height: 480px;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s;
-    -webkit-animation: fading2 12s infinite;
     animation: fading2 12s infinite;
 }
 
-@-webkit-keyframes fading2 {
-    0% { opacity: 0; }
-    37.5% { opacity: 0; }
-    50% { opacity: 1; }
-    87.5% { opacity: 1; }
-    100% { opacity: 0; }
+@keyframes fading2 {
+  0%, 100% { opacity: 0; }
+  15% { opacity: 0; }
+  25% { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
-@keyframes fading2 {
-    0% { opacity: 0; }
-    37.5% { opacity: 0; }
-    50% { opacity: 1; }
-    87.5% { opacity: 1; }
-    100% { opacity: 0; }
+#header3 {
+    position: absolute;
+    top: 10px;
+    background-image: url(../res/bg3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10px;
+    min-height: 480px;
+    animation: fading3 12s infinite;
+}
+
+@keyframes fading3 {
+  0%, 100% { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  65% { opacity: 1; }
+  75% { opacity: 0; }
+}
+
+#header4 {
+    position: absolute;
+    top: 10px;
+    background-image: url(../res/bg4.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10px;
+    min-height: 480px;
+    animation: fading4 12s infinite;
+}
+
+@keyframes fading4 {
+  0%, 100% { opacity: 0; }
+  65% { opacity: 0; }
+  75% { opacity: 1; }
+  90% { opacity: 1; }
 }
 
 footer .well {
@@ -111,7 +129,7 @@ footer .well {
     margin-bottom: 0;
 }
 
-header {
+header-strip {
     height: 10px;
     min-height: 10px;
 }
